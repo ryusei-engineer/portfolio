@@ -114,6 +114,9 @@ a{
     margin: 38px auto 0;
   }
   
+  .contents p{
+    font-size: 16px;
+  }
 
   .works_card a{
     width: 80%;
