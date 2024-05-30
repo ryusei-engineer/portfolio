@@ -7,30 +7,56 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav>
+    <a href="#profile">Profile</a>
+    <a href="#skills">Skills</a>
+    <a href="#works">Works</a>
+  </nav>
   <h1>Ryusei'sportfolio</h1>
   <main>
     <div class="profile">
-      <h2>Profile</h2>
+      <h2 id="profile">Profile</h2>
       <img class="icon" src="images\portfolio.jpg" alt="">
-      <p class="name">慶野龍成</p>
+      <div class="contents">
+        <p>Name:慶野龍成</p>
+        <p>Age:20</p>
+      </div>
     </div>
     
-    <h2>Skills</h2>
-    <div class="skills">
+    <h2 id="skills">Skills</h2>
+    <div class="contents">
       <p>HTML</p>
       <p>CSS</p>
       <p>JavaScript</p>
       <p>PHP(Laravel)</p>
     </div>
 
-    <h2>Works</h2>
+    <h2 id="works">Works</h2>
     <div class="works">
       <div class="works_card">
         <a href="https://rakurakurecipe.com/"><img src="images\スクリーンショット 2024-05-31 001511.png" alt=""></a>
         <a href="https://rakurakurecipe.com/">リンクはこちら</a>
         <p class="title">アプリ名：Racipe</p>
         <p class="title">アプリ概要</p>
-        <p class="detail">ラクに作れるレシピを共有できるアプリです。ユーザーはレシピは５段階でラクさを評価できます。</p>
+        <p class="detail">ラクに作れるレシピを共有できるアプリです。レシピは閲覧ユーザーが５段階でラクさを評価するため、客観的なラクさでレシピが評価されます。</p>
+        <p class="title">使用技術</p>
+        <p class="detail">言語：HTML5</p>
+        <p class="detail">　　　CSS3</p>
+        <p class="detail">　　　JavaScript</p>
+        <p class="detail">　　　PHP8.2</p>
+        <p class="detail">フレームワーク：Laravel11</p>
+        <p class="detail">バージョン管理：Git(Github)</p>
+        <p class="detail">コンテナ：Docker</p>
+        <p class="detail">デザインツール：Figma</p>
+        <p class="detail">デプロイ先：Xserver</p>
+        <p class="detail">データベース：MariaDB</p>
+        <p class="detail"></p>
+
+        <p class="title">画面遷移図</p>
+        <a href="https://www.figma.com/design/tyVLubJU5wOMf9S74VXpl4/racipe-(%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3)?m=auto&t=X3R9totipC43yk2V-6"><img src="images\スクリーンショット 2024-05-31 005919.png" alt=""></a>
+        <a href="https://www.figma.com/design/tyVLubJU5wOMf9S74VXpl4/racipe-(%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3)?m=auto&t=X3R9totipC43yk2V-6">リンクはこちら</a>
+        <p class="title">ER図</p>
+        <img src="images\racipeER.png" alt="">
       </div>
     </div>
   </main>

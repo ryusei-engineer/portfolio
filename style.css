@@ -6,7 +6,19 @@
 
 body{
   background-color: rgb(250, 252, 255);
-  padding: 0 0 2000px;
+  padding: 0 0 100px;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a{
+  color: #4e4e4e;
+  width: fit-content;
+  margin: 0;
+  padding: 16px 26px;
 }
 
 h1{
@@ -42,11 +54,8 @@ p{
   font-size: 24px;
 }
 
-.name{
-  margin: 36px 0 0;
-}
 
-.skills{
+.contents{
   width: 480px;
   margin: 38px auto 0;
   text-align: start;
@@ -78,4 +87,39 @@ a{
   margin: 10px auto 0;
   text-decoration: none;
   color: #ff3434;
+}
+
+@media screen and (max-width:600px){
+  nav a{
+    padding: 10px 10px;
+  }
+
+  .icon{
+    width: 80px;
+    height: 80px;
+  }
+
+  h1{
+    text-align: center;
+    width: fit-content;
+    font-size: 32px;
+  }
+
+  .contents{
+    width: 70%;
+  }
+
+  .works, .works_card{
+    width: 90%;
+    margin: 38px auto 0;
+  }
+  
+
+  .works_card a{
+    width: 80%;
+  }
+  
+  .works_card img{
+    width: 90%;
+  }
 }
