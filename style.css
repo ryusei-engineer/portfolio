@@ -102,7 +102,8 @@ a{
   h1{
     text-align: center;
     width: fit-content;
-    font-size: 32px;
+    font-size: 28px;
+    padding: 0 10px;
   }
 
   .contents{
