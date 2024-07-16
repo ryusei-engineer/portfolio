@@ -67,6 +67,17 @@ p{
   text-align: start;
 }
 
+.works_card h2{
+  font-size: 36px;
+  padding: 20px;
+}
+
+.works_card + .works_card{
+  width: 480px;
+  margin: 100px auto 0;
+  text-align: start;
+}
+
 .works_card img{
   display: block;
   width: 400px;
