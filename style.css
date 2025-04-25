@@ -37,6 +37,17 @@ h2{
   margin: 150px auto 0;
 }
 
+h3 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.works_card + .works_card{
+  margin: 200px auto 0;
+}
+
 .profile{
   text-align: center;
 }
